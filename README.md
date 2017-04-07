@@ -3,7 +3,8 @@
 A naive implementation of B-spline by c++
 
 ## Description
-- The original code is [scipy.interpolate.BSpline Examples](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.BSpline.html#scipy.interpolate.BSpline)
+- Naive implementation of B-spline function
+- Translation of [scipy.interpolate.BSpline Examples](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.BSpline.html#scipy.interpolate.BSpline) into c++
 
 ## Requirement
 - c++11
