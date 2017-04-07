@@ -24,7 +24,7 @@ public:
 	double operator()(double x)
 	{
 		const size_t n = _t.size() - _k - 1;
-		assert((n >= _k + 1) && (_c.size() >= n));
+		assert(n >= (size_t)_k + 1 && _c.size() >= n);
 		double y = 0;
 		for (size_t i = 0; i < n; i++)
 			y += _c[i] * B(x, _k, i, _t);
