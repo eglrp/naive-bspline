@@ -9,6 +9,19 @@ A naive implementation of B-spline by c++
 ## Requirement
 - c++11
 
+## NaiveBSpline class
+```
+const int k = 2;                                       // spline degree
+const std::vector<double> t = { 0, 1, 2, 3, 4, 5, 6 }; // knot vector
+const std::vector<double> c = { -1, 2, 0, -1 };        // spline coefficients
+
+NaiveBSpline bspline(t, c, k);
+
+// Evaluate a spline function
+const double x = 2.5;
+const double y = bspline(x);
+```
+
 ## Sample code
 ### How to build
 ```
